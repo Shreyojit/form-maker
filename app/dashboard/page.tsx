@@ -1,9 +1,10 @@
+import { redirect } from 'next/navigation'
 import React from 'react'
 
 function DashboardPage() {
-  return (
-    <div>DashboardPage</div>
-  )
+  
+    redirect("/dashboard/forms");
+  
 }
 
 export default DashboardPage
